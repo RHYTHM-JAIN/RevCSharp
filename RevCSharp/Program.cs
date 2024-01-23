@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace RevCSharp
+{
+	public static class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Hello World");
+			Console.Read();
+		}
+	}
+}
